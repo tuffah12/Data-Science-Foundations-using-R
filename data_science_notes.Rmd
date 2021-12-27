@@ -53,13 +53,34 @@ There are three main repositories for installing packages:
 * `version`: info on R installation
 * `sessionInfo()`: details on current session.
 
+# Data Analysis
+
+There are six main types of data analysis.
+
+1. Descriptive analysis: describe or summarise a set of data, i.e. describe mean, std dev, etc.
+2. Exploratoty analysis: examine data and find relationships that weren't previously known, i.e. find correlations
+3. Inferential analysis: use a sample to extrapolate characteristics to a larger group
+4. Predictive analysis: Use current and historical data to make predictions about future data
+5. Causal analysis: analyse whether a change in one variable leads to a change in another
+6. Mechanistic analysis: Understand exact changes in variables that lead to exact changes in other variables
+
+# Big data
+
+In practice, data is rarely structured. The amount of data generated has exploded. We need new tools to mine this data. 
+
+- Volume: there is a lot of data  . Lots of data negates small errors.
+- Velocity: the data set is constantly updating. So you can do real time analysis!   
+- Variety: what source of data is best suited to answer my question? Unconventional data answers unconventional questions!
+
+In unstructured data, hidden correlations can be resolved. 
+
+# RMarkdown
+
+This document is made using RMarkdown. Text markup, such as __bold__ , _italic_,
+`cody` or even ~~strikethrough~~ text is possible. Here below is a code chunk that 
+creates a vector and multiplies the elements by 2.
+
 ```{r}
 a <- c(2, 3 ,6 ,8)
 a*2
 ```
-date
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
-
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
